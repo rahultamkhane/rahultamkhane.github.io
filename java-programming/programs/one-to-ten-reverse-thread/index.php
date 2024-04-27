@@ -1,0 +1,138 @@
+<?php 
+require("../../../libs/config.php");
+$title = "Java Program to Create Two Threads to print 1 to 10 numbers and 11 to 20 numbers";
+$description = "Write a Java program to define two threads one will print 1 to 10 numbers whereas other will print 11 to 20 numbers.";
+include($_SERVER['DOCUMENT_ROOT'].SITE_DIR."include/header.php");
+?>
+
+<?php 
+include($_SERVER['DOCUMENT_ROOT'].SITE_DIR."include/navbar.php");
+?>
+
+<!-- Breadcrumb -->
+<div class="breadcrumbs overlay">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="bread-inner">
+          <!-- Bread Menu -->
+          <div class="bread-menu">
+            <ul>
+              <li><a href="<?php echo SITE_DIR;?>">Home</a></li>
+              <li><a href="<?php echo SITE_DIR;?>java-programming/">Java Programming</a></li>
+			  <li><a href="<?php echo SITE_DIR;?>java-programming/programs/">All Programs</a></li>
+            </ul>
+          </div>
+          <!-- Bread Title -->
+          <div class="bread-title"><h2>Java Program to Create Two Threads to print 1 to 10 numbers and 11 to 20 numbers</h2></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ End Breadcrumb -->
+
+<section class="news-area archive blog-single section-padding">
+	<div class="container">
+		<div class="row">
+		
+<?php 
+include($_SERVER['DOCUMENT_ROOT'].SITE_DIR."include/leftbar.php");
+?>
+	
+	<div class="col-sm-8">
+		<div class="blog-single-main">
+			<div class="blog-detail">
+				<h2 class="blog-title">Java Program to Create Two Threads to print 1 to 10 numbers and 11 to 20 numbers</h2>
+				<p>Write a Java program to define two threads one will print 1 to 10 numbers whereas other will print 11 to 20 numbers.</p>
+				
+				<br>
+				<?php 
+					include($_SERVER['DOCUMENT_ROOT'].SITE_DIR."include/banner-ads.php");
+				?>
+				<br>
+				<h5>Source Code</h5>
+				<div id="code" class="source-code">
+					<pre><code class="java">class OneTo10 extends Thread {
+	
+	public void run() {
+		
+		for(int i=1; i&lt;=10; i++) {
+			System.out.println("OneTo10 : " + i);
+		}
+	}
+}
+
+class ElevenTo20 extends Thread {
+	
+	public void run() {
+		
+		for(int i=11; i&lt;=20; i++) {
+			System.out.println("ElevenTo20 : " + i);
+		}
+	}
+}
+
+public class OneToTenThread {
+
+	public static void main(String[] args) {
+		
+		new OneTo10().start();
+		new ElevenTo20().start();
+	}
+}
+</code></pre>
+				</div> <!--/ End source-code -->
+				</div> <!--/ End blog-detail-->
+				
+			</div> <!--/ End blog-single-main -->
+		
+
+				<h5 class="pt-3">Output</h5>
+				<div class="output">
+					<pre class="hljs"><code class="plaintext p-3">OneTo10 : 1
+OneTo10 : 2
+OneTo10 : 3
+OneTo10 : 4
+OneTo10 : 5
+OneTo10 : 6
+OneTo10 : 7
+OneTo10 : 8
+OneTo10 : 9
+OneTo10 : 10
+ElevenTo20 : 11
+ElevenTo20 : 12
+ElevenTo20 : 13
+ElevenTo20 : 14
+ElevenTo20 : 15
+ElevenTo20 : 16
+ElevenTo20 : 17
+ElevenTo20 : 18
+ElevenTo20 : 19
+ElevenTo20 : 20
+</code></pre>
+				</div>
+				<!-- DESC -->
+
+			<br>
+      
+			<?php 
+				include($_SERVER['DOCUMENT_ROOT'].SITE_DIR."include/feedback.php");
+			?>
+
+			<br>
+			<?php 
+				include($_SERVER['DOCUMENT_ROOT'].SITE_DIR."include/banner-ads.php");
+			?>
+			<br>
+		</div> <!-- /col-sm-8 -->	
+<?php 
+include$_SERVER['DOCUMENT_ROOT'].SITE_DIR."include/rightbar.php";
+?>
+	</div>	<!-- /row -->
+
+</div> <!-- /container -->
+ 
+<?php 
+include($_SERVER['DOCUMENT_ROOT'].SITE_DIR."include/footer.php");
+?>

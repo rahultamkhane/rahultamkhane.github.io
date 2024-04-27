@@ -1,0 +1,16 @@
+HTML program to create Time Table using HTML table tag
+HTML Program to Create First Webpage
+HTML Program to Demonstrate Different Types of HTML Headings
+HTML Program to display HTML headings with Different Alignments
+HTML program to divide a web page into 2 rows and second into 3 columns using frameset
+HTML program to link an external page of different web sites and link web page to your mail address
+HTML program to demonstrate different types of lists
+HTML program to create a static webpage using table tags
+HTML program to develop a web page using CSS for website page
+HTML program to link an external page of different web sites and link the web page to mail address
+HTML program to demonstrate use of MARQUEE tag
+HTML program to create a static web page which defines all text formatting tags of HTML in tabular format
+HTML program for using text level tags and special symbols
+HTML program to design a web page which include image hyperlink and set any image as a background to the page
+HTML program to use block level tags
+HTML program to display name of any IT company you know
