@@ -19,12 +19,10 @@ I'm **Rahul Tamkhane**, a passionate Full Stack Mobile Developer and open-source
 - **Other**: AWS, Firebase, Git, Postman
 _ _ _
 
-<!--
 ### 🔥My Favorite Repositories
-1. **[Project-Name](https://github.com/rahultamkhane)**
-   A [brief description] about your project.
+1. **[Business Card](https://github.com/rahultamkhane/BusinessCard)**  
+   A simple flutter app to create a Business Card.
 _ _ _
--->
 
 ## 🔥Own Developed App
 
