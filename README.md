@@ -22,6 +22,8 @@ _ _ _
 ### 🔥My Favorite Repositories
 1. **[Business Card](https://github.com/rahultamkhane/BusinessCard)**  
    A simple flutter app to create a Business Card.
+2. **[Rapido Clone](https://github.com/rahultamkhane/RapidoClone)**  
+   A Rapido clone with a basic structure.  
 _ _ _
 
 ## 🔥Own Developed App
